@@ -1,7 +1,11 @@
 # appdata
 A RESTFul API for read/write application data.
 
-| API            |
-|------|:-------:|
-|URI | /api/appdata |
-|Method | "GET" : return all saved {key:value} pairs|
+
+###URI   : /api/appdata
+
+
+|Method | Description |
+|-------|-------------|
+|"GET" | return all saved {key:value} pairs|
+|"POST"| save a {key:value} pair|
